@@ -134,11 +134,11 @@
 		box-sizing: border-box;
 	}
 	.contain{
-		width: 60%;
+		width: 40%;
 		height: 60%;
 		position: relative;
-		top: 50%;
-		left: 50%;
+		top: 55%;
+		left: 75%;
 		transform: translate(-50%,-50%);
 		background-color: #fff;
 		border-radius: 20px;
@@ -261,4 +261,7 @@
 		transform: translateX(-100%);
 		transition: all 1s;
 	}
+
+
+
 </style>
