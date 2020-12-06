@@ -6,10 +6,10 @@
         <div class="nav-bar-item2">
             <span>Multi-terminal file transfer</span>
         </div>
-        <div class="nav-bar-item3">
+        <div class="nav-bar-item3" >
             <img src="../assets/imgs/登录.svg" alt="">
         </div>
-        <div class="nav-bar-item4">
+        <div class="nav-bar-item4" @click="toLogin" >
             <span>登录/注册</span>
         </div>
         <div class="nav-bar-item5">
@@ -23,7 +23,13 @@
 
 <script>
   export default {
-    name: "navBar"
+    name: "navBar",
+    methods: {
+      toLogin() {
+        this.$router.replace('/home')
+        console.log(123)
+      },
+    }
   }
 </script>
 
@@ -40,6 +46,7 @@
         height: 90px;
         background-color: #f0f0f0;
         box-shadow : 0px 1px 1px rgba(100,100,100,0.4);
+        z-index: 99;
     }
     .nav-bar-item1 {
         position: relative;
@@ -73,7 +80,7 @@
         border: 1px solid bisque;
         border-radius: 60px;
         background-color: bisque;
-        cursor: pointer     ;
+        cursor: pointer;
     }
     .nav-bar-item5 {
         position: absolute;

@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 
 const Home = () => import('../views/Home')
 const Product = () => import('../views/Product')
-const Help = () => import('../views/Help')
 const Download = () => import('../views/Download')
 
 Vue.use(VueRouter)
@@ -20,10 +19,6 @@ const routes = [
   {
     path:'/product',
     component:Product
-  },
-  {
-    path:'/help',
-    component:Help
   },
   {
     path:'/download',

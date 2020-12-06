@@ -14,11 +14,7 @@
                     <img slot="item-icon" src="../../assets/imgs/chanpin.svg" alt="">
                     <span slot="item-text">产品</span>
                 </side-bar-item>
-                <side-bar-item path="help">
-                    <img slot="item-icon" src="../../assets/imgs/bangzhu.svg" alt="">
-                    <span slot="item-text">首页</span>
-                </side-bar-item>
-                <side-bar-item path="download">
+                <side-bar-item path="/download">
                     <img slot="item-icon" src="../../assets/imgs/xiazai.svg" alt="">
                     <span slot="item-text">下载</span>
                 </side-bar-item>
@@ -65,8 +61,8 @@
         /*background-color: aquamarine;*/
     }
     #control-side-bar {
-        position: fixed;
-        top: 100px;
+        position: absolute;
+        top: -75px;
         left: 30px;
         cursor: pointer;
     }

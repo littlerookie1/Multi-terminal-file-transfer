@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <nav-bar></nav-bar>
     <router-view></router-view>
     <side-bar></side-bar>
   </div>
@@ -7,8 +8,12 @@
 
 <script>
   import SideBar from "./components/sidebar/sideBar";
+  import navBar from "./components/navBar";
   export default {
-    components: {SideBar,  }
+    components: {
+      SideBar,
+      navBar
+    }
   }
 </script>
 
