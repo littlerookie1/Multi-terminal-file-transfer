@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <nav-bar ></nav-bar>
+        <nav-bar></nav-bar>
         <login-register></login-register>
     </div>
 </template>
@@ -21,7 +21,7 @@
 <style scoped>
     .home {
         background: url("../assets/imgs/home_background.jpg") no-repeat -600px;
-
     }
+
 
 </style>

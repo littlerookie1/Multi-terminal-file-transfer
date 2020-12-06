@@ -35,15 +35,18 @@
 
 <style scoped>
     .side-bar-item img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .side-bar-item {
         padding: 8px;
         margin-top: 40px;
         cursor: pointer;
+        border-radius: 25px;
     }
     .active {
         background-color: rgba(100,100,100,0.2);
+        color: orangered;
+        box-shadow: 5px 5px 1px rgba(100,100,100,0.4),-5px -5px 1px rgba(100,100,100,0.4);
     }
 </style>

@@ -10,7 +10,7 @@
             <img src="../assets/imgs/登录.svg" alt="">
         </div>
         <div class="nav-bar-item4">
-            <span><a href="">登录/注册</a></span>
+            <span>登录/注册</span>
         </div>
         <div class="nav-bar-item5">
             <img src="../assets/imgs/我的.svg" alt="">
@@ -73,6 +73,7 @@
         border: 1px solid bisque;
         border-radius: 60px;
         background-color: bisque;
+        cursor: pointer     ;
     }
     .nav-bar-item5 {
         position: absolute;
