@@ -16,7 +16,7 @@
             <img src="../assets/imgs/我的.svg" alt="">
         </div>
         <div class="nav-bar-item6">
-            <span>I believe you will love it</span>
+            <span>Simple And Quick</span>
         </div>
     </div>
 </template>
